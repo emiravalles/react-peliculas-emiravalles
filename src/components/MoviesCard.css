@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+.movieCard {
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    color: midnightblue;
+}
+
+.movieImage {
+    border-radius: 20px;
+    background-color: azure;
+    width: 230px;
+    height: 345px;
+}
+
+.movieImage:hover {
+    cursor: pointer;
+}
+
+/*
+.movieTitle:hover {
+    cursor: pointer;
+}
+*/
+
+@media(max-width: 560px) { 
+    .movieImage {
+        width: 90%;
+        height: auto;
+    }
+}
