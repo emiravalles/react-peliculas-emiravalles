@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-peliculas-emiravalles/static/css/main.6c52cb4d.css",
+    "main.js": "/react-peliculas-emiravalles/static/js/main.d5d5d388.js",
+    "index.html": "/react-peliculas-emiravalles/index.html",
+    "main.6c52cb4d.css.map": "/react-peliculas-emiravalles/static/css/main.6c52cb4d.css.map",
+    "main.d5d5d388.js.map": "/react-peliculas-emiravalles/static/js/main.d5d5d388.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c52cb4d.css",
+    "static/js/main.d5d5d388.js"
+  ]
+}
