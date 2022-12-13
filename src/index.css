@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: lightskyblue; */
+  background-image: url("./images/closeup-concrete-wall-texture-background.jpg");
+  background-size: cover;
 }
 
 code {

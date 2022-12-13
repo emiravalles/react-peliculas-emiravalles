@@ -17,13 +17,13 @@
 
 .movieImage:hover {
     cursor: pointer;
+    opacity: 0.5;
 }
 
-/*
-.movieTitle:hover {
-    cursor: pointer;
+.more_info {
+    text-decoration: none;
+    color: white;
 }
-*/
 
 @media(max-width: 560px) { 
     .movieImage {
