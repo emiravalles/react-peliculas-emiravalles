@@ -20,14 +20,27 @@
     opacity: 0.5;
 }
 
-.more_info {
+.movieTitle {
     text-decoration: none;
-    color: white;
+    color: midnightblue;
+    display: grid;
 }
 
 @media(max-width: 560px) { 
     .movieImage {
         width: 90%;
         height: auto;
+    }
+}
+
+@media(max-width: 167px) { 
+    .movieCard {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 138px) { 
+    .movieCard {
+        font-size: 0.6rem;
     }
 }

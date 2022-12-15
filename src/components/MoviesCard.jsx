@@ -1,5 +1,6 @@
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
+import { Link } from "react-router-dom";
 import "./MoviesCard.css";
 
 const MySwal = withReactContent(Swal);
@@ -19,22 +20,27 @@ const showDescription = (title, description, image, id) => {
         imageHeight: 300,
         imageAlt: title,
         confirmButtonColor: '#000080',
-        // confirmButtonText: '+ More info',
-        confirmButtonText: '<a class="more_info" href="./secondpage.php">+ More info</a>',
+        confirmButtonText: 'Close'
+        // confirmButtonText: '<a class="more_info" href="./secondpage.php">+ More info</a>',
+        // confirmButtonText: <Link to ={`/movie/${id}`}>+ More info</Link>,
+        // confirmButtonText: <div>+ More info</div>,
         // footer: '<a href="./secondpage.php">+ More info</a>',
-        showCancelButton: true,
-        cancelButtonText: 'Close',
-        reverseButtons: true,
-        focusConfirm: false
+        // showCancelButton: true,
+        // cancelButtonText: 'Close',
+        // reverseButtons: true,
+        // focusConfirm: false
     })
 }
 
 export function MoviesCard ({movie}) {
     const imgUrl = "https://image.tmdb.org/t/p/w300" + movie.poster_path;
+
     return (
         <li className="movieCard">
             <img className="movieImage" src={imgUrl} alt={movie.title} onClick={()=>{showDescription(movie.title, movie.overview, imgUrl, movie.id)}} />
-            <div className="movieTitle">{movie.title}</div>
+            {/* <Link to ={`/movie/${movie.id}`}><img className="movieImage" src={imgUrl} alt={movie.title} /></Link> */}
+            <Link to ={`/movie/${movie.id}`} className="movieTitle">{movie.title}</Link>
+            {/* <Link to ={`/movie/${movie.id}`}>Probando</Link> */}
         </li>
     );
 };
