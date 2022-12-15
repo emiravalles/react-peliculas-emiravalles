@@ -21,14 +21,6 @@ const showDescription = (title, description, image, id) => {
         imageAlt: title,
         confirmButtonColor: '#000080',
         confirmButtonText: 'Close'
-        // confirmButtonText: '<a class="more_info" href="./secondpage.php">+ More info</a>',
-        // confirmButtonText: <Link to ={`/movie/${id}`}>+ More info</Link>,
-        // confirmButtonText: <div>+ More info</div>,
-        // footer: '<a href="./secondpage.php">+ More info</a>',
-        // showCancelButton: true,
-        // cancelButtonText: 'Close',
-        // reverseButtons: true,
-        // focusConfirm: false
     })
 }
 
@@ -38,9 +30,7 @@ export function MoviesCard ({movie}) {
     return (
         <li className="movieCard">
             <img className="movieImage" src={imgUrl} alt={movie.title} onClick={()=>{showDescription(movie.title, movie.overview, imgUrl, movie.id)}} />
-            {/* <Link to ={`/movie/${movie.id}`}><img className="movieImage" src={imgUrl} alt={movie.title} /></Link> */}
-            <Link to ={`/movie/${movie.id}`} className="movieTitle">{movie.title}</Link>
-            {/* <Link to ={`/movie/${movie.id}`}>Probando</Link> */}
+            <Link to ={`/react-peliculas-emiravalles/movie/${movie.id}`} className="movieTitle">{movie.title}</Link>
         </li>
     );
 };
