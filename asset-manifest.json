@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/react-peliculas-emiravalles/static/css/main.6c52cb4d.css",
-    "main.js": "/react-peliculas-emiravalles/static/js/main.d5d5d388.js",
+    "main.css": "/react-peliculas-emiravalles/static/css/main.4b5631cc.css",
+    "main.js": "/react-peliculas-emiravalles/static/js/main.13b789a4.js",
+    "static/media/closeup-concrete-wall-texture-background.jpg": "/react-peliculas-emiravalles/static/media/closeup-concrete-wall-texture-background.a00a15995c7fbe87212f.jpg",
     "index.html": "/react-peliculas-emiravalles/index.html",
-    "main.6c52cb4d.css.map": "/react-peliculas-emiravalles/static/css/main.6c52cb4d.css.map",
-    "main.d5d5d388.js.map": "/react-peliculas-emiravalles/static/js/main.d5d5d388.js.map"
+    "main.4b5631cc.css.map": "/react-peliculas-emiravalles/static/css/main.4b5631cc.css.map",
+    "main.13b789a4.js.map": "/react-peliculas-emiravalles/static/js/main.13b789a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c52cb4d.css",
-    "static/js/main.d5d5d388.js"
+    "static/css/main.4b5631cc.css",
+    "static/js/main.13b789a4.js"
   ]
 }
